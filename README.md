@@ -1,9 +1,9 @@
-# DevOps Training
-This repository serves as a platform for my personal DevOps training, showcasing my skills in scripting with **Python** and **Shell Scripting**, as well as utilizing DevOps tools such as **Ansible** and **Terraform**. Its primary objectives are:
+# Terraform Training
+This repository serves as a platform for my personal terraform training, showcasing my skills in scripting with **Python** and **Shell Scripting**, as well as utilizing DevOps tools such as **Ansible** and **Terraform**. Its primary objectives are:
 
 
-1. **Self-Training:** To train myself in DevOps tasks.
-2. **Skill Demonstration:** To demonstrate my capabilities in DevOps tools and scripting to potential employers and collaborators.
+1. **Self-Training:** To train myself in terraform tasks.
+2. **Skill Demonstration:** To demonstrate my capabilities in terraform tools and scripting to potential employers and collaborators.
 3. **Personal Future Reference:** This repository will be used by me for future reference and for future projects.
 
 ## Issue Description
@@ -57,7 +57,7 @@ To create an EC2 instance in **AWS**, I utilized **Terraform** and **aws-cli**. 
       - All of this is needed for it to connect to the internet and for SSH to work.
 
 2. **[terraform/main.tf](terraform/main.tf)**
-    - Sets the EC2 AMI to `ami-09c8d5d747253fb7a` (Ubuntu 22.04 LTS, x86), sets the instance type to `t2.micro`, and names it "DevOps-Training".
+    - Sets the EC2 AMI to `ami-09c8d5d747253fb7a` (Ubuntu 22.04 LTS, x86), sets the instance type to `t2.micro`, and names it "terraform-Training".
     - Sets the security group 'SSHAcess', which is created in the `provider.tf` file.
     - Creates the user 'ansible', adds my public key, edits the sudoers file, and installs the **Python** psutil library.
       - My public key is visible in the file, but since it's a public key, it's safe to share publicly.
